@@ -1,12 +1,12 @@
-[submodule "composer-plugin"]
-	path = composer-plugin
-	url = https://github.com/thusithawijethunga/composer-plugin.git
-	branch = main
-[submodule "satis"]
-	path = satis
+[submodule "satis-repository/satis"]
+	path = satis-repository/satis
 	url = https://github.com/thusithawijethunga/satis.git
 	branch = main
-[submodule "php-plugin"]
-	path = php-plugin
+[submodule "satis-repository/php-plugin"]
+	path = satis-repository/php-plugin
 	url = https://github.com/thusithawijethunga/php-plugin.git
+	branch = main
+[submodule "satis-repository/composer-plugin"]
+	path = satis-repository/composer-plugin
+	url = https://github.com/thusithawijethunga/composer-plugin.git
 	branch = main
