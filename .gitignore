@@ -1,1 +1,4 @@
 /my-project/vendor/
+/my-project/dev/cache/cache/
+/my-project/prod/cache/cache/
+/my-project/test/cache/cache/

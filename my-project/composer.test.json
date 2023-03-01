@@ -1,0 +1,23 @@
+{
+    "name": "thusitha/my-project",
+    "description": "composer project test",
+    "keywords": [
+        "composer",
+        "test",
+        "development"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "scripts": {
+        "test": [
+            "echo 'Running test build'",
+            "composer install --no-dev"
+        ]
+    }
+}

@@ -1,16 +1,17 @@
 {
     "name": "thusitha/my-project",
-    "description": "composer project",
+    "description": "composer project production",
     "keywords": [
         "composer",
-        "project"
+        "project",
+        "production"
     ],
     "license": "MIT",
     "type": "project",
     "repositories": [
         {
             "type": "composer",
-            "url": "https://book.mydomain.com/satis/web",
+            "url": "https://satis.mydomain.com",
             "options": {
                 "ssl": {
                     "verify_peer": false
@@ -19,8 +20,12 @@
         }
     ],
     "require": {
-        "monolog/monolog": "^2.0",
-        "thusitha/composer-plugin": "dev-main",
-        "thusitha/php-plugin": "dev-main"
+        "monolog/monolog": "^2.0"
+    },
+    "scripts": {
+        "prod": [
+            "echo 'Running production build'",
+            "composer install --no-dev"
+        ]
     }
 }
