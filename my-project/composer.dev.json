@@ -34,5 +34,10 @@
             "echo 'Running development build'",
             "composer install"
         ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
     }
 }
