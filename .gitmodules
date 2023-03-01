@@ -10,3 +10,7 @@
 	path = satis-repository/composer-plugin
 	url = https://github.com/thusithawijethunga/composer-plugin.git
 	branch = main
+[submodule "custom-installers/composer-custom-installer"]
+	path = custom-installers/composer-custom-installer
+	url = https://github.com/thusithawijethunga/composer-custom-installer.git
+	branch = main
