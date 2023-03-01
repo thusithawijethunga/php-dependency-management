@@ -1,0 +1,26 @@
+{
+    "name": "thusitha/my-project",
+    "description": "composer project",
+    "keywords": [
+        "composer",
+        "project"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://book.mydomain.com/satis/web",
+            "options": {
+                "ssl": {
+                    "verify_peer": false
+                }
+            }
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "thusitha/composer-plugin": "dev-main",
+        "thusitha/php-plugin": "dev-main"
+    }
+}
