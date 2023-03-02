@@ -18,3 +18,7 @@
 	path = installers/template-installer-plugin
 	url = https://github.com/thusithawijethunga/template-installer-plugin.git
 	branch = main
+[submodule "installers/template-package"]
+	path = installers/template-package
+	url = https://github.com/thusithawijethunga/template-package.git
+	branch = main
