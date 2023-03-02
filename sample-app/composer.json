@@ -1,0 +1,31 @@
+{
+    "name": "sample/app",
+    "require": {
+        "thusitha/my-plugin": "*",
+        "monolog/monolog": "^2.0",
+        "thusitha/composer-plugin": "dev-main",
+        "thusitha/php-plugin": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../custom-installer"
+        },
+        {
+            "type": "composer",
+            "url": "https://satis.mydomain.com",
+            "options": {
+                "ssl": {
+                    "verify_peer": false
+                }
+            }
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "thusitha/my-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

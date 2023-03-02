@@ -1,0 +1,11 @@
+{
+    "name": "Thusitha Avinda",
+    "email": "thusithawijethunga@gmail.com",
+    "app": "sample\/app",
+    "requires": {
+        "thusitha\/my-plugin": "*",
+        "monolog\/monolog": "^2.0",
+        "thusitha\/composer-plugin": "dev-main",
+        "thusitha\/php-plugin": "dev-main"
+    }
+}
