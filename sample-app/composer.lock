@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "970078d32c1e515d5701457e73762097",
+    "content-hash": "ec9f94b7d4124c62f16fa5940186f7f4",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2838,16 +2838,15 @@
         {
             "name": "thusitha/my-plugin",
             "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thusithawijethunga/composer-custom-installer.git",
-                "reference": "d13d5c57199ca74f25ef846d2132ebab292705c5"
+            "dist": {
+                "type": "path",
+                "url": "../composer-custom-installer",
+                "reference": "391859cba1e3322668c7147455f1bc5502425fe3"
             },
             "require": {
                 "composer-plugin-api": "^2.3.0",
                 "composer/composer": "^2.5.0"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Thusitha\\MyPlugin"
@@ -2858,7 +2857,9 @@
                 }
             },
             "description": "My Composer plugin",
-            "time": "2023-03-02T07:02:34+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "thusitha/php-plugin",
