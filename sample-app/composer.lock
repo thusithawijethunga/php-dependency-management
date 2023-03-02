@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62c8c2e2abb171a3a9e18719d00c698f",
+    "content-hash": "970078d32c1e515d5701457e73762097",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2838,15 +2838,16 @@
         {
             "name": "thusitha/my-plugin",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../custom-installer",
-                "reference": "2b6867a4f3dc918c46f8e23cfe2ed356b62e5102"
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thusithawijethunga/composer-custom-installer.git",
+                "reference": "d13d5c57199ca74f25ef846d2132ebab292705c5"
             },
             "require": {
                 "composer-plugin-api": "^2.3.0",
                 "composer/composer": "^2.5.0"
             },
+            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Thusitha\\MyPlugin"
@@ -2857,9 +2858,7 @@
                 }
             },
             "description": "My Composer plugin",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2023-03-02T07:02:34+00:00"
         },
         {
             "name": "thusitha/php-plugin",
@@ -2867,12 +2866,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thusithawijethunga/php-plugin.git",
-                "reference": "ae02effb490390390df67e11ca96da8c576f2cbc"
+                "reference": "5bea8b2b9286a5159838ca6d5b2591f1c9835d69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/ae02effb490390390df67e11ca96da8c576f2cbc",
-                "reference": "ae02effb490390390df67e11ca96da8c576f2cbc",
+                "url": "https://api.github.com/repos/thusithawijethunga/php-plugin/zipball/5bea8b2b9286a5159838ca6d5b2591f1c9835d69",
+                "reference": "5bea8b2b9286a5159838ca6d5b2591f1c9835d69",
                 "shasum": ""
             },
             "require": {
@@ -2909,7 +2908,7 @@
                 "source": "https://github.com/thusithawijethunga/php-plugin/tree/main",
                 "issues": "https://github.com/thusithawijethunga/php-plugin/issues"
             },
-            "time": "2023-03-01T12:57:07+00:00"
+            "time": "2023-03-01T15:16:23+00:00"
         }
     ],
     "packages-dev": [],

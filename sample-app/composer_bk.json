@@ -1,0 +1,23 @@
+{
+    "name": "sample/app",
+    "require": {
+        "thusitha/my-plugin": "*",
+        "monolog/monolog": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/thusithawijethunga/composer-custom-installer.git"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "thusitha/my-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
+
+
