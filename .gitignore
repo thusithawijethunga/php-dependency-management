@@ -3,3 +3,5 @@
 /my-project/prod/cache/cache/
 /my-project/test/cache/cache/
 /sample-app/vendor/
+/demo-application/vendor/
+/demo-application/src/Modules/

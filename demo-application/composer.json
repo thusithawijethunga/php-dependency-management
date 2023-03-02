@@ -1,0 +1,50 @@
+{
+    "name": "thusitha/project",
+    "type": "project",
+    "require": {
+        "thusitha/template-installer-plugin": "*",
+        "thusitha/package-time": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../installers/template-installer-plugin"
+        },
+        {
+            "type": "path",
+            "url": "../installers/template-package",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "custom/package": [
+                "thusitha/template-installer-plugin"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "thusitha/template-installer-plugin": true
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php index.php"
+        ],
+        "post-update-cmd": [
+            "php index.php"
+        ]
+    }
+}
