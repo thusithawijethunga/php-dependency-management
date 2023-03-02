@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../custom-installer"
+            "url": "../composer-custom-installer"
         },
         {
             "type": "composer",
