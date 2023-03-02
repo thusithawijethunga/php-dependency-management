@@ -22,5 +22,19 @@
         "monolog/monolog": "^2.0",
         "thusitha/composer-plugin": "dev-main",
         "thusitha/php-plugin": "dev-main"
-    }
+    },
+    "scripts": {
+        "prod": [
+            "echo 'Running production build'",
+            "composer install --no-dev"
+        ],
+        "dev": [
+            "echo 'Running development build'",
+            "composer install"
+        ],
+        "test": [
+            "echo 'Running test build'",
+            "composer install --no-dev"
+        ]
+    },
 }
